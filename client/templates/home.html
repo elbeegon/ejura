@@ -1,0 +1,29 @@
+<template name="home">
+	<header>
+		<div class="container-fluid">
+			<div class="row gradient">
+				<div class="col-md-4 logo">
+					<h1 class="logo"><img src="img/logo.png" alt=""></h1>
+				</div>
+				<div class="col-md-4">
+					<div class="table-center">
+						<h2 class="text-center aptarnavimas">Įvertinkite mūsų aptarnavimą...</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		{{> yield}}
+	</main>
+
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>www.eJura.lt | Liepų g. 24, Klaipėda</p>	
+				</div>
+			</div>
+		</div>
+	</footer>
+</template>

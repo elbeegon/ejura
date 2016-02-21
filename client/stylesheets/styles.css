@@ -1,0 +1,59 @@
+/* CSS declarations go here */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin-ext);
+
+body {
+    font-family: Roboto;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.coffee-bg {
+    background: url('img/coffee_bg.jpg') no-repeat center center;
+    min-height: 600px;
+}
+
+.input-padding {
+    padding-bottom: 1em;
+}
+
+/* Header Background */
+.gradient {
+background: #4B79A1; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* H2 text center format */
+
+h2 {
+    font-weight: 300;
+}
+
+.table-center {
+    display: table;
+    line-height: 100%;
+    margin: auto;
+}
+
+.aptarnavimas {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Flexbox middle */
+.parent {
+ /* justify-content: center;
+  align-items: center;*/
+}
+
+
+
+/*footer {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}*/
+
+
