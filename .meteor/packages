@@ -17,7 +17,10 @@ es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 twbs:bootstrap
-iron:router
 email
 accounts-password
 accounts-ui
+reactive-var
+iron:router
+alino:mongo2es
+alino:logit

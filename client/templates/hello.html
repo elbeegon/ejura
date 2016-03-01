@@ -2,10 +2,9 @@
     <main class="parent">
         <div class="container">
             <div class="row">
-                <div class="col-md-3"><button type="button" name="bad"><img src="img/bad.png" alt="bad" /></button></div>
-                <div class="col-md-3"><button type="button" name="sad"><img src="img/sad.png" alt="sad" /></button></div>
-                <div class="col-md-3"><button type="button" name="good"><img src="img/good.png" alt="good" /></button></div>
-                <div class="col-md-3"><button type="button" name="best"><img src="img/best.png" alt="best" /></button></div>
+                {{#each emotion}}
+                    <div class="col-md-3"><img src="img/{{this}}.png" alt="{{this}}" /></div>
+                {{/each}}
             </div>
         </div>
     </main>

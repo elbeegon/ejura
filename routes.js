@@ -1,32 +1,33 @@
-// home layout configuration
-
-// Router.onBeforeAction(function() {
-//   if (! Meteor.userId()) {
-//     this.render('register');
-//   } else {
-//     this.next();
-//   }
-// });
-
-Router.configure({
-    layoutTemplate: 'home'
+Router.onBeforeAction(function() {
+    if (!Meteor.userId() && !Meteor.loggingIn()) {
+        this.render('index');
+        // this.layoutTemplate('indexTemplate');
+    } else {
+        this.next();
+    }
 });
 
 // Route index.html layout
-Router.route('/', function() {
+Router.route('/', function () {
   this.render('hello');
 });
 
-Router.route('/register', {
-	name: 'register'
+// Render info.html layout
+Router.route('/info', function () {
+	this.render('info');
 });
 
-// Render info.html layout
-Router.route('/info', {
-	name: 'info'
+// Render comment.html layout
+Router.route('/comment', function () {
+	this.render('comment');
 });
 
 // Render thankyou.html layout
-Router.route('/thankyou', {
-	name: 'thankyou'
+Router.route('/thankyou', function () {
+	this.render('thankyou');
+});
+
+Router.configure({
+    layoutTemplate: 'home',
+    // indexTemplate: 'index'
 });

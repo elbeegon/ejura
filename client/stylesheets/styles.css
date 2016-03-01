@@ -3,9 +3,7 @@
 
 body {
     font-family: Roboto;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
+    background-color: #f1f1f1;
 }
 
 .coffee-bg {
@@ -17,37 +15,32 @@ body {
     padding-bottom: 1em;
 }
 
+.panel-heading {
+
+}
+
+.panel-heading-enhancment {
+    background-color: #ccb599 !important;
+    color: white !important;
+    font-size: 1.75em;
+    padding: 1.25em 1.75em;
+}
+
 /* Header Background */
 .gradient {
-background: #4B79A1; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* H2 text center format */
 
 h2 {
     font-weight: 300;
-}
 
-.table-center {
-    display: table;
-    line-height: 100%;
-    margin: auto;
 }
-
-.aptarnavimas {
-    color: #fff;
-    display: table-cell;
-    vertical-align: middle;
+.col-md-3 img {
+    cursor: pointer;
+    padding: 1em;
 }
-
-/* Flexbox middle */
-.parent {
- /* justify-content: center;
-  align-items: center;*/
-}
-
 
 
 /*footer {
@@ -55,5 +48,3 @@ h2 {
     bottom: 0;
     left: 40%;
 }*/
-
-

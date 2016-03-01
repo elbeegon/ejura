@@ -1,7 +1,7 @@
-<body>
-	<!-- {{#if currentUser}} -->
+<template name="index">
+	{{#if currentUser}}
 		{{> home}}
-	<!-- {{else}}
-		{{> register}}
-	{{/if}} -->
-</body>
+	{{else}}
+		{{> account}}
+	{{/if}}
+</template>
