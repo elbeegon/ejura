@@ -1,5 +1,5 @@
 Meteor.startup(function() {
-	process.env.MAIL_URL = 'smtp://karolis@pretendentas.lt:PretKarolis963@lamstas.serveriai.lt:465' ;	
+	process.env.MAIL_URL = 'smtp://karolis@pretendentas.lt:password@lamstas.serveriai.lt:465' ;	
 });
 
 Meteor.methods({
